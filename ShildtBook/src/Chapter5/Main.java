@@ -17,7 +17,7 @@ public class Main {
        // TwoDim.lenghtDemo();
        // TwoDim.ACopy();
        // QueueDemo.queueDemo();
-        TwoDim.forEachDemo();
+       // TwoDim.forEachDemo();
         TwoDim.noChange();
     }
 }
