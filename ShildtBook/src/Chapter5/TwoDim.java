@@ -113,4 +113,32 @@ public class TwoDim {
             System.out.print(nums2[i] + " ");
 
     }
+
+    public static void forEachDemo(){
+        int nums[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int sum = 0;
+// использовать разновидность for-each цикла for
+// для суммирования и отображения значений,
+        for(int x : nums) {
+            System.out.println("Value is: " + x);
+            sum += x;
+        }
+        System.out.println("Summation: " + sum);
+
+    }
+
+    public static void noChange(){
+        int nums[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        for(int x : nums) {
+            System.out.print(x + " ");
+// Следующая операция не оказывает никакого влияния
+//на содержимое массива nums.
+            x = x * 10;
+        }
+        System.out.println();
+        for (int x : nums)
+            System.out.print(x + " ");
+        System.out.println();
+
+    }
 }

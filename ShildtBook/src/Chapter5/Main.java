@@ -16,6 +16,8 @@ public class Main {
         //TwoDim.AssignARef();
        // TwoDim.lenghtDemo();
        // TwoDim.ACopy();
-        QueueDemo.queueDemo();
+       // QueueDemo.queueDemo();
+        TwoDim.forEachDemo();
+        TwoDim.noChange();
     }
 }
