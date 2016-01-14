@@ -6,8 +6,9 @@ package Chapter6;
 public class Main {
 
     public static void main(String[] args) {
-        Access.accessDemo();
-        Access.fsDemo();
+        //Access.accessDemo();
+        //Access.fsDemo();
+    Access.recursiveOn();
 
     }
 }
