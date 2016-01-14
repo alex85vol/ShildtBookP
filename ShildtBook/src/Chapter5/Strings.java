@@ -148,6 +148,80 @@ public class Strings {
             decmsg = decmsg + (char) (encmsg.charAt(i) ^ key);
         System.out.print("Decoded message: ");
         System.out.println(decmsg);
+    }
+
+    public static void notDemo() {
+
+        byte b = -34;
+        for (int t = 128; t > 0; t = t / 2) {
+            if ((b & t) != 0) System.out.print("1 ");
+            else System.out.print("0 ");
+        }
+        System.out.println();
+// изменить на обратное состояние всех битов
+        b = (byte) ~b;
+        for (int t = 128; t > 0; t = t / 2) {
+            if ((b & t) != 0) System.out.print("1 ");
+            else System.out.print("0 ");
+
+        }
+    }
+
+    public static void shiftDemo(){
+        int val = 1;
+        for(int i = 0; i < 8; i++) {
+            for(int t=128; t > 0; t = t/2)	{
+                if((val & t) != 0) System.out.print("1 ");
+                else System.out.print("0 ");
+            }
+            System.out.println() ;
+            val = val << 1;
+        }
+        System.out.println();
+        val = 128;
+        for(int i = 0; i < 8; i++) {
+            for (int t = 128; t > 0; t = t / 2) {
+                if ((val & t) != 0) System.out.print("1 ");
+                else System.out.print("0 ");
+            }
+            System.out.println();
+            val = val >> 1; // сдвинуть вправо
+        }
+    }
+
+    public static void showBitsDemo(){
+        ShowBits b = new ShowBits(8);
+        ShowBits i = new ShowBits(32);
+        ShowBits li = new ShowBits(64);
+        System.out.println("123 in binary: ");
+        b.show(123);
+        System.out.println("\n87987 in binary: ");
+        i.show(87987);
+        System.out.println("\n237658768 in binary: ");
+        li.show(237658768);
+       // можно также отобразить младшие разряды любого целого числа
+        System.out.println("\nLow order 8 bits of 87987 in binary: ");
+        b.show(87987);
+
+    }
+
+    public static void noZeroDiv(){
+
+        int result;
+        for(int i = -5; i < 6; i++) {
+// Деление на нуль предотвращается.
+            result = i != 0 ? 100 / i : 0;
+            if (i != 0)
+                System.out.println("100 / " + i + " is " + result);
+        }
+    }
+
+    public static void noZeroDiv2(){
+        for(int i = -5; i < 6; i++)
+        if(i != 0 ? true : false)
+            System.out.println("100 / " + i +
+                    " is " + 100 / i);
+
 
     }
 }

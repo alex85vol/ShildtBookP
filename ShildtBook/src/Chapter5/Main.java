@@ -28,7 +28,13 @@ public class Main {
         //Strings.stringSwitch();
         //Strings.upCase();
         //Strings.showBits();
-        Strings.lowCase();
+        //Strings.lowCase();
+        //Strings.encriptionDemo();
+        //Strings.notDemo();
+        //Strings.shiftDemo();
+        //Strings.showBitsDemo();
+        //Strings.noZeroDiv();
+        Strings.noZeroDiv2();
 
 
     }
