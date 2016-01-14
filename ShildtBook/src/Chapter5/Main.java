@@ -18,7 +18,22 @@ public class Main {
        // TwoDim.ACopy();
        // QueueDemo.queueDemo();
        // TwoDim.forEachDemo();
-        TwoDim.noChange();
+        //TwoDim.noChange();
+        //TwoDim.forEachDemo2();
+        //TwoDim.foundValue();
+        //Strings.stringDemo1();
+        //Strings.stringOps();
+        //Strings.stringArrays();
+        //Strings.subString();
+        //Strings.stringSwitch();
+        //Strings.upCase();
+        //Strings.showBits();
+        Strings.lowCase();
+
 
     }
 }
+
+
+
+

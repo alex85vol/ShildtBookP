@@ -141,4 +141,42 @@ public class TwoDim {
         System.out.println();
 
     }
+
+    public static void forEachDemo2(){
+
+        int sum = 0;
+        int nums[][] = new int[3][5];
+// ввести ряд значений в массив nums
+        for(int i = 0; i < 3; i++)
+            for(int j=0; j < 5; j++)
+                nums[i][j] = (i+1)*(j+1);
+// использовать разновидность for-each цикла for
+// для суммирования и отображения значений
+// Обратите внимание на объявление переменной х.
+        for (int x[]	:	nums)	{
+            for(int y : x) {
+                System.out.println("Value is: " + y) ;
+                sum += y;
+            }
+        }
+        System.out.println("Summation: " + sum);
+
+    }
+     public static void foundValue(){
+
+         int nums[] = { 6, 8, 3, 7, 5, 6, 1, 4 };
+         int val = 5;
+         boolean found = false;
+// использовать разновидность for-each цикла for
+// для поиска значения переменной val в массиве nums
+         for(int x : nums) {
+             if (x == val) {
+                 found = true;
+                 break;
+             }
+         }
+         if(found)
+             System.out.println("Value found!");
+
+     }
 }
