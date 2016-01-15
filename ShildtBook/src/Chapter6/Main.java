@@ -7,8 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
         //Access.accessDemo();
-        Access.fsDemo();
+      //  Access.fsDemo();
     //Access.recursiveOn();
-
+     //QueueDemoCh6.queueDemo();
+        PassOb.passOb();
     }
 }

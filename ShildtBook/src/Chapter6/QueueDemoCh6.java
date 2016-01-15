@@ -1,7 +1,5 @@
 package Chapter6;
 
-import Chapter5.Queue;
-
 /**
  * Created by Demon on 13.01.2016.
  */
