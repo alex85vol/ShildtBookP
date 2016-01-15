@@ -7,9 +7,18 @@ public class Main {
 
     public static void main(String[] args) {
         //Access.accessDemo();
-      //  Access.fsDemo();
-    //Access.recursiveOn();
-     //QueueDemoCh6.queueDemo();
-        PassOb.passOb();
+        //Access.fsDemo();
+        //Access.recursiveOn();
+        //QueueDemoCh6.queueDemo();
+        //PassOb.passOb();
+        //PassOb.callByValue();
+        //PassOb.callByRef();
+        //PassOb.errorMsg();
+        //PassOb.errInfo();
+        //PassOb.overLoadDemo();
+        //PassOb.typeConv();
+        PassOb.overloadConsDemo();
+
+
     }
 }
