@@ -99,5 +99,13 @@ public class PassOb {
 
     }
 
+    public static void sumDemo(){
+        Summation s1 = new Summation(5);
+        Summation s2 = new Summation(s1);
+        System.out.println("si.sum: " + s1.sum);
+        System.out.println("s2.sum: " + s2.sum);
+
+    }
+
 }
 

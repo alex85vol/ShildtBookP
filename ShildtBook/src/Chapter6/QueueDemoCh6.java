@@ -37,4 +37,37 @@ public class QueueDemoCh6 {
             if (ch != (char) 0) System.out.print(ch);
         }
     }
+
+    public static void queueDemo2() {
+
+        QueueCh6 q1 = new QueueCh6(10);
+        char name[] = {'Т', 'o', 'm'};
+// построить очередь из массива
+        QueueCh6 q2 = new QueueCh6(name);
+        char ch;
+        int i;
+// поместить ряд символов в очередь q1
+        for (i = 0; i < 10; i++)
+            q1.put((char) ('A' + i));
+// построить одну очередь из другой очереди
+        QueueCh6 q3 = new QueueCh6(q1);
+// показать очереди
+        System.out.print("Contents of q1: ");
+        for (i = 0; i < 10; i++) {
+            ch = q1.get();
+            System.out.print(ch);
+        }
+        System.out.println("\n");
+        System.out.print("Contents of q2: ");
+        for (i = 0; i < 3; i++) {
+            ch = q2.get();
+            System.out.print(ch);
+        }
+        System.out.println("\n");
+        System.out.print("Contents of q3: ");
+        for (i = 0; i < 10; i++) {
+            ch = q3.get();
+            System.out.print(ch);
+        }
+    }
 }

@@ -12,4 +12,7 @@ public class Summation {
         for (int i = 1; i <= num; i++)
             sum += i;
         }
+    Summation(Summation ob) {
+        sum = ob.sum;
     }
+}
