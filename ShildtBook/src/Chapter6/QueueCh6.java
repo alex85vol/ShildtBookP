@@ -1,12 +1,12 @@
-package Chapter5;
+package Chapter6;
 
 /**
  * Created by Demon on 13.01.2016.
  */
-public class Queue {
-    char q[];
-    int putloc, getloc;
-    Queue(int size) {
+public class QueueCh6 {
+    private char q[];
+    private int putloc, getloc;
+    QueueCh6(int size) {
         q = new char[size+1];
         putloc = getloc = 0;
     }

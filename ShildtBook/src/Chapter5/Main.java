@@ -16,7 +16,7 @@ public class Main {
         //TwoDim.AssignARef();
        // TwoDim.lenghtDemo();
        // TwoDim.ACopy();
-       // QueueDemo.queueDemo();
+       // QueueDemoCh6.queueDemo();
        // TwoDim.forEachDemo();
         //TwoDim.noChange();
         //TwoDim.forEachDemo2();
