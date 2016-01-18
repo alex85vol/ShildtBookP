@@ -133,5 +133,39 @@ public class PassOb {
         System.out.println("ob2.sum(): " + ob2.sum());
         System.out.println();
     }
+
+    public static void SDemo3(){
+        StaticBlock ob = new StaticBlock("Inside Constructor");
+        System.out.println("Square root of 2 is " +
+                StaticBlock.rootOf2);
+        System.out.println("Square root of 3 is " +
+                StaticBlock.rootOf3) ;
+
+    }
+
+    public static void QSDemo(){
+        char a [ ] = {'d','x','a','r','p','j','i'};
+        int i;
+        System.out.print("Original array: ");
+        for(i=0; i < a.length; i++)
+        System.out.print(a[i]) ;
+        System.out.println();
+        // отсортировать массив
+        QuickSort.qsort(a);
+        System.out.print("Sorted array: ");
+        for(i=0; i < a.length; i++)
+            System.out.print(a[i]);
+
+    }
+
+    public static void nestedDemo(){
+
+        int x[] = { 3, 2, 1, 5, 6, 9, 7, 8 };
+        Outer outOb = new Outer(x);
+        outOb.Analyze();
+
+    }
+
+
 }
 
