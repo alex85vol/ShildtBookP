@@ -9,7 +9,7 @@ public class Triangle3 extends TwoDShape2 {
 
     Triangle3(String s, double w, double h) {
 // Использование оператора super () для вызова
-// конструктора класса TwoDShape.
+// конструктора класса TwoDShape2.
         super(w, h); // вызвать конструктор суперкласса
         style = s;
     }
