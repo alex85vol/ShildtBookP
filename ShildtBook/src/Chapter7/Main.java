@@ -13,6 +13,7 @@ public class Main {
         //DemoMeth.TruckDemo();
         //DemoMeth.Shapes5();
         //DemoMeth.Shapes6();
-        DemoMeth.Shapes7();
+        //DemoMeth.Shapes7();
+        DemoMeth.AbsShapes();
     }
 }
