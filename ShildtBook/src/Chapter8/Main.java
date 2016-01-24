@@ -5,7 +5,9 @@ package Chapter8;
  */
 public class Main {
     public static void main(String[] args) {
-        BookDemo.bookDemo();
+        //BookDemo.bookDemo();
+        //BookDemo.extDemo();
+        BookDemo.ByTwosDemo();
 
     }
 }
